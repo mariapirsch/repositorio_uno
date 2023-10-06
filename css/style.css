@@ -1,0 +1,199 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Estilos de tipografia*/
+
+h1 {
+    font-family: 'Noto Sans NKo Unjoined', sans-serif;
+    color: #191717;
+    font-size: 55px;
+    padding: 10px;
+}
+
+.textoPortada {
+    font-family: 'Noto Sans NKo Unjoined', sans-serif;
+    color: #191717;
+}
+
+.sectionTallerPracticaOp {
+    font-family: 'Noto Sans NKo Unjoined', sans-serif;
+    color: #191717;
+}
+
+.sectionTallerComercializacion {
+    font-family: 'Noto Sans NKo Unjoined', sans-serif;
+    color: #191717;
+}
+
+.sectionNegYCont {
+    font-family: 'Noto Sans NKo Unjoined', sans-serif;
+    color: #191717;
+}
+
+.sectionIntroComex {
+    font-family: 'Noto Sans NKo Unjoined', sans-serif;
+    color: #191717;
+}
+
+.sectionComInt {
+    font-family: 'Noto Sans NKo Unjoined', sans-serif;
+    color: #191717;
+}
+
+.sectionDocentes {
+    font-family: 'Noto Sans NKo Unjoined', sans-serif;
+    color: #191717;
+}
+
+.sectionCalendario {
+    font-family: 'Noto Sans NKo Unjoined', sans-serif;
+    color: #191717;
+}
+
+.sectionInstitucional {
+    font-family: 'Noto Sans NKo Unjoined', sans-serif;
+    color: #191717;
+}
+
+/*Estilos de background color*/
+body {
+    background-color: #F4F2DE;
+}
+
+.header {
+    background-color: #E9B384;
+}
+
+/*Estilos de la nav*/
+nav ul {
+    background-color: #A1CCD1;
+    font-family: 'Noto Sans NKo Unjoined', sans-serif;
+    font-size: 12px;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #191717;
+}
+
+/*Estilos del header*/
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+/*Estilos de la section del index*/ /*ACA TENGO UN PROBLEMON, SE ME DESCUAJERINGO EL DISEÑO*/
+.infoPortada {
+    display: flex;
+    flex-direction: row;
+}
+
+.textoPortada {
+    display: flex;
+    
+}
+
+
+/*Estilos del footer*/
+.infoFooter {
+    background-color: #7C9D96;
+    font-family: 'Noto Sans NKo Unjoined', sans-serif;
+    color: #191717;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+/*Estilos Taller de Practica Operativa*/
+.sectionTallerPracticaOp {
+    margin: 10px;
+    padding: 10px;
+}
+
+.objetivosTaller {
+    font-size: 40px;
+    padding-left: 0;
+}
+
+.tituloObjetivos {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+/*Estilos Taller de Comercializacion Internacional*/
+.sectionTallerComercializacion {
+    margin: 10px;
+    padding: 10px;
+}
+
+.tituloTallerComerc {
+    font-size: 40px;
+    padding-left: 0;
+}
+
+/*Estilos Negociaciones y Contrataciones Internacionales*/
+.sectionNegYCont {
+    margin: 10px;
+    padding: 10px;
+}
+
+.tituloNegYCont {
+    font-size: 40px;
+    padding-left: 0;
+}
+
+/*Estilos Introducción al Comex*/
+.sectionIntroComex {
+    margin: 10px;
+    padding: 10px;
+}
+
+.tituloIntroComex {
+    font-size: 40px;
+    padding-left: 0;
+}
+
+/*Estilos Comercialización Internacional*/
+.sectionComInt {
+    margin: 10px;
+    padding: 10px;
+}
+
+.tituloComInt {
+    font-size: 40px;
+    padding-left: 0;
+}
+
+/*Estilos Cuerpo Docente*/
+.sectionDocentes {
+    margin: 10px;
+    padding: 10px;
+}
+
+/*Estilos Calendario Académico*/
+.sectionCalendario {
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+
+}
+
+.tituloCalendario {
+    font-size: 40px;
+    padding-left: 0;
+}
+
+/*Estilos Intitucional*/
+.sectionInstitucional {
+    margin: 10px;
+    padding: 10px;
+}
+
+
