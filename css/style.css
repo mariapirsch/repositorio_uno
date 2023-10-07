@@ -89,10 +89,21 @@ a {
     justify-content: center;
 }
 
-/*Estilos de la section del index*/ /*ACA TENGO UN PROBLEMON, SE ME DESCUAJERINGO EL DISEÑO*/
+/*Estilos de la section del index*/ /*agregar padding y margin a las fotos*/
 .infoPortada {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+}
+
+.fotos {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.imagenesPortada {
+    display: flex;
+    justify-content: center;
 }
 
 .textoPortada {
@@ -188,6 +199,11 @@ a {
 .tituloCalendario {
     font-size: 40px;
     padding-left: 0;
+}
+
+.textoCalendario {
+    display: flex;
+    flex-direction: column;
 }
 
 /*Estilos Intitucional*/
