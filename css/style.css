@@ -1,4 +1,4 @@
-* { 
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -87,9 +87,14 @@ a {
 .header {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
-/*Estilos de la section del index*/ /*agregar padding y margin a las fotos*/
+.logo {
+    height: 50px;
+}
+
+/*Estilos de la section del index*/
 .infoPortada {
     display: flex;
     flex-direction: column;
@@ -103,14 +108,15 @@ a {
 
 .imagenesPortada {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .textoPortada {
     display: flex;
-    
-}
 
+}
 
 /*Estilos del footer*/
 .infoFooter {
@@ -211,5 +217,3 @@ a {
     margin: 10px;
     padding: 10px;
 }
-
-
