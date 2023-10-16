@@ -258,3 +258,20 @@ a {
         margin-top: 5px;
     }
 }
+
+@media screen and (max-width: 480px) {
+    .sectionCalendario {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .imagenCalend {
+        width: 300px;
+        object-fit: cover;
+        padding: 10px;
+        display: flex;
+        margin: auto;
+    }
+}
