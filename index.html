@@ -12,25 +12,23 @@
         rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <title>Introducción al Comercio Internacional</title>
+    <title>Comercio Internacional</title>
 </head>
 
 <body>
 
     <header>
         <div class="header">
-            <img src="./assets/planeta-tierra.png" alt="" class="logo">
-            <a href="./index.html" class="text-decoration-none text-body"> <!--3-AHORA QUE PUSE ACA LA CLASE DEL BOOT EN ESTA ANCLA SI DESAPARECIÓ EL TEXT DECOR DEL TEXTO DEL HEADER, PREGUNTAR POR QUE-->
-                <h1 class="titulo text-decoration-none" >COMERCIO INTERNACIONAL</h1> <!--1-PREGUNTAR A PEDRO POR QUE NO SE VA EL DELINEADO ABAJO DEL TITULO DEL HEADER-->
+            <a href="./index.html" class="text-decoration-none text-body">
+                <h1 class="titulo">COMERCIO INTERNACIONAL</h1>
             </a>
-            <img src="./assets/planeta-tierra.png" alt="" class="logo">
         </div>
     </header>
 
 
-    <nav>
+    <!-- NAV NO RESPONSIVA NO BORRAR POR LAS DUDAS <nav>
         <ul class="lista">
-            <li><a href="./pages/tallerdepracticaoperativa.html" class="a text-decoration-none">TALLER DE PRÁCTICA OPERATIVA</a></li> <!--2-PORQUE ACA SI SE FUE EL DELINEADO ABAJO COB EL TEXT DECORATION NONE-->
+            <li><a href="./pages/tallerdepracticaoperativa.html" class="a text-decoration-none">TALLER DE PRÁCTICA OPERATIVA</a></li> 
             <li><a href="./pages/negociacionesycontrataciones.html" class="a text-decoration-none">NEGOCIACIONES Y CONTRATACIONES
                     INTERNACIONALES</a>
             </li>
@@ -44,6 +42,124 @@
             <li><a href="./pages/calendarioacademico.html" class="a text-decoration-none">CALENDARIO ACADÉMICO</a></li>
             <li><a href="./pages/institucional.html" class="a text-decoration-none">INSTITUCIONAL</a></li>
         </ul>
+    </nav> -->
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <!-- <a class="navbar-brand" href="#">Comex</a> -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Taller de Práctica Operativa
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="./pages/tallerdepracticaoperativa.html">Objetivos</a>
+                            </li>
+                            <li><a class="dropdown-item" href="#">Consignas del TP</a></li>
+                            <li><a class="dropdown-item" href="#">Trabajos prácticos</a></li>
+                            <li><a class="dropdown-item" href="#">Documentos</a></li>
+                            <li><a class="dropdown-item" href="#">Resolución de casos</a></li>
+                            <li><a class="dropdown-item" href="#">Práctica Profesional</a></li>
+                            <li><a class="dropdown-item" href="#">Pasos para exportar</a></li>
+                            <li><a class="dropdown-item" href="#">Presentaciones</a></li>
+                            <li><a class="dropdown-item" href="#">Sketchs</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Negociaciones y Contrataciones Internacionales
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="./pages/negociacionesycontrataciones.html">Objetivos</a>
+                            </li>
+                            <li><a class="dropdown-item" href="#">Lecturas importantes</a></li>
+                            <li><a class="dropdown-item" href="#">Videos</a></li>
+                            <li><a class="dropdown-item" href="#">Lenguaje corporal</a></li>
+                            <li><a class="dropdown-item" href="#">Negociación multilateral</a></li>
+                            <li><a class="dropdown-item" href="#">Casos prácticos</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Introducción al Comercio Internacional
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="./pages/introduccionalcomex.html">Programa</a></li>
+                            <li><a class="dropdown-item" href="#">Material de estudio</a></li>
+                            <li><a class="dropdown-item" href="#">Cooperación económica</a></li>
+                            <li><a class="dropdown-item" href="#">Procesos de integración</a></li>
+                            <li><a class="dropdown-item" href="#">ALADI</a></li>
+                            <li><a class="dropdown-item" href="#">MERCOSUR</a></li>
+                            <li><a class="dropdown-item" href="#">UNIÓN EUROPEA</a></li>
+                            <li><a class="dropdown-item" href="#">ASEAN</a></li>
+                            <li><a class="dropdown-item" href="#">Otros procesos</a></li>
+                            <li><a class="dropdown-item" href="#">Links</a></li>
+                            <li><a class="dropdown-item" href="#">Noticias y lecturas</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Comercialización Internacional
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="./pages/comercializacioninternacional.html">Programa</a>
+                            </li>
+                            <li><a class="dropdown-item" href="#">Aula virtual</a></li>
+                            <li><a class="dropdown-item" href="#">Material MyCI</a></li>
+                            <li><a class="dropdown-item" href="#">Trabajos prácticos</a></li>
+                            <li><a class="dropdown-item" href="#">Mktg Campañas</a></li>
+                            <li><a class="dropdown-item" href="#">Mktg Precios</a></li>
+                            <li><a class="dropdown-item" href="#">Mktg Productos</a></li>
+                            <li><a class="dropdown-item" href="#">Mktg Distribución</a></li>
+                            <li><a class="dropdown-item" href="#">Mktg Publicidad</a></li>
+                            <li><a class="dropdown-item" href="#">Bases estadísticas</a></li>
+                            <li><a class="dropdown-item" href="#">Seguridad alimentaria</a></li>
+                            <li><a class="dropdown-item" href="#">Lecturas NSE</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Taller de Comercialización Internacional
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="./pages/tallerdecomercializacion.html">Lecturas
+                                    importantes</a></li>
+                            <li><a class="dropdown-item" href="#">Innovación y Mktg</a></li>
+                            <li><a class="dropdown-item" href="#">Caso Sturback</a></li>
+                            <li><a class="dropdown-item" href="#">Casos de PyMES</a></li>
+                            <li><a class="dropdown-item" href="#">Multinacionales</a></li>
+                            <li><a class="dropdown-item" href="#">Cadenas globales</a></li>
+                            <li><a class="dropdown-item" href="#">Plan de negocios</a></li>
+                            <li><a class="dropdown-item" href="#">Investigación de mercados</a></li>
+                            <li><a class="dropdown-item" href="#">Análisis comercio</a></li>
+                            <li><a class="dropdown-item" href="#">Sketchs</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Institucional
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="./pages/cuerpodocente.html">Cuerpo docente</a></li>
+                            <li><a class="dropdown-item" href="./pages/calendarioacademico.html">Calendario
+                                    académico</a></li>
+                        </ul>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
     </nav>
 
     <main>

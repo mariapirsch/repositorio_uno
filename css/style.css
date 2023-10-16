@@ -6,12 +6,12 @@
 
 /*Estilos de tipografia*/
 
-h1 {
+/* h1 {
     font-family: 'Noto Sans NKo Unjoined', sans-serif;
-    color: #191717;
+    color: #F0F0F0;
     font-size: 55px;
     padding: 10px;
-}
+} */
 
 
 .textoPortada {
@@ -59,13 +59,21 @@ h1 {
     color: #191717;
 }
 
+.titulo {
+    color: #F0F0F0;
+    font-family: 'Noto Sans NKo Unjoined', sans-serif;
+    font-size: 55px;
+    padding: 10px;
+    text-decoration: none;
+}
+
 /*Estilos de background color*/
 body {
     background-color: #F4F2DE;
 }
 
 .header {
-    background-color: #E9B384;
+    background-color: #213555;
 }
 
 /*Estilos de la nav*/
@@ -89,10 +97,6 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.logo {
-    height: 50px;
 }
 
 /*Estilos de la section del index*/
@@ -121,9 +125,9 @@ a {
 
 /*Estilos del footer*/
 .infoFooter {
-    background-color: #7C9D96;
+    background-color: #213555;
     font-family: 'Noto Sans NKo Unjoined', sans-serif;
-    color: #191717;
+    color: #F0F0F0;
     padding: 5px;
     display: flex;
     justify-content: center;
@@ -217,4 +221,40 @@ a {
 .sectionInstitucional {
     margin: 10px;
     padding: 10px;
+}
+
+/*Estilos responsive*/
+@media screen and (min-width: 480px) {
+    body {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .imagenesPortada {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .fotos {
+        width: 300px;
+        height: 300px;
+        object-fit: cover;
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .titulo {
+        display: flex;
+        font-size: 20px;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5px;
+    }
 }
