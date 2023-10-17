@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-/*Estilos de tipografia*/
+/*ESTILOS DE TIPOGRAFÍA*/
 
 /* h1 {
     font-family: 'Noto Sans NKo Unjoined', sans-serif;
@@ -67,7 +67,7 @@
     text-decoration: none;
 }
 
-/*Estilos de background color*/
+/*ESTILOS DE BACKGROUND COLOR*/
 body {
     background-color: #F4F2DE;
 }
@@ -76,7 +76,7 @@ body {
     background-color: #213555;
 }
 
-/*Estilos de la nav*/
+/*ESTILOS DE LA NAV*/
 nav ul {
     background-color: #A1CCD1;
     font-family: 'Noto Sans NKo Unjoined', sans-serif;
@@ -92,14 +92,14 @@ a {
     color: #191717;
 }
 
-/*Estilos del header*/
+/*ESTILOS DEL HEADER*/
 .header {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-/*Estilos de la section del index*/
+/*ESTILOS DE LA SECTION DEL INDEX*/
 .infoPortada {
     display: flex;
     flex-direction: column;
@@ -123,7 +123,7 @@ a {
 
 }
 
-/*Estilos del footer*/
+/*ESTILOS DEL FOOTER*/
 .infoFooter {
     background-color: #213555;
     font-family: 'Noto Sans NKo Unjoined', sans-serif;
@@ -133,7 +133,7 @@ a {
     justify-content: center;
 }
 
-/*Estilos Taller de Practica Operativa*/
+/*ESTILOS TALLER DE PRACTICA OPERATIVA*/
 .sectionTallerPracticaOp {
     margin: 10px;
     padding: 10px;
@@ -149,7 +149,7 @@ a {
     padding-bottom: 5px;
 }
 
-/*Estilos Taller de Comercializacion Internacional*/
+/*ESTILOS TALLER DE COMERCIALIZACIÓN INTERNACIONAL*/
 .sectionTallerComercializacion {
     margin: 10px;
     padding: 10px;
@@ -160,7 +160,7 @@ a {
     padding-left: 0;
 }
 
-/*Estilos Negociaciones y Contrataciones Internacionales*/
+/*ESTILOS NEGOCIACIONES Y CONTRATACIONES INTERNACIONALES*/
 .sectionNegYCont {
     margin: 10px;
     padding: 10px;
@@ -171,7 +171,7 @@ a {
     padding-left: 0;
 }
 
-/*Estilos Introducción al Comex*/
+/*ESTILOS INTRODUCCIÓN AL COMEX*/
 .sectionIntroComex {
     margin: 10px;
     padding: 10px;
@@ -182,7 +182,7 @@ a {
     padding-left: 0;
 }
 
-/*Estilos Comercialización Internacional*/
+/*ESTILOS COMERCIALIZACIÓN INTERNACIONAL*/
 .sectionComInt {
     margin: 10px;
     padding: 10px;
@@ -193,13 +193,13 @@ a {
     padding-left: 0;
 }
 
-/*Estilos Cuerpo Docente*/
+/*ESTILOS CUERPO DOCENTE*/
 .sectionDocentes {
     margin: 10px;
     padding: 10px;
 }
 
-/*Estilos Calendario Académico*/
+/*ESTILOS CALENDARIO ACADEMICO*/
 .sectionCalendario {
     margin: 10px;
     padding: 10px;
@@ -217,13 +217,13 @@ a {
     flex-direction: column;
 }
 
-/*Estilos Intitucional*/
+/*ESTILOS INSTITUCIONAL*/
 .sectionInstitucional {
     margin: 10px;
     padding: 10px;
 }
 
-/*Estilos responsive*/
+/*ESTILOS RESPONSIVE*/
 @media screen and (min-width: 480px) {
     body {
         display: flex;
@@ -274,4 +274,29 @@ a {
         display: flex;
         margin: auto;
     }
+}
+
+/*ANIMACIÓN EN CSS*/
+@keyframes show {
+    from {
+        opacity: 0;
+        scale: 25%;
+    }
+
+    to {
+        opacity: 1;
+        scale: 100%;
+    }
+
+}
+
+.fotos {
+    view-timeline-name: --image;
+    view-timeline-axis: block;
+
+    animation-timeline: --image;
+    animation-name: show;
+
+    animation-range: entry 25% cover 50%;
+    animation-fill-mode: both;
 }
