@@ -4,6 +4,30 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: #F4F2DE;
+
+}
+
+/*ESTILOS DEL HEADER*/
+.header {
+    background-color: #213555;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*ESTILOS DEL TITULO*/
+.titulo {
+    color: #F0F0F0;
+    font-family: 'Noto Sans NKo Unjoined', sans-serif;
+    font-size: 55px;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+
 /*ESTILOS DE TIPOGRAFÍA*/
 
 /* h1 {
@@ -19,62 +43,6 @@
     color: #191717;
 }
 
-.sectionTallerPracticaOp {
-    font-family: 'Noto Sans NKo Unjoined', sans-serif;
-    color: #191717;
-}
-
-.sectionTallerComercializacion {
-    font-family: 'Noto Sans NKo Unjoined', sans-serif;
-    color: #191717;
-}
-
-.sectionNegYCont {
-    font-family: 'Noto Sans NKo Unjoined', sans-serif;
-    color: #191717;
-}
-
-.sectionIntroComex {
-    font-family: 'Noto Sans NKo Unjoined', sans-serif;
-    color: #191717;
-}
-
-.sectionComInt {
-    font-family: 'Noto Sans NKo Unjoined', sans-serif;
-    color: #191717;
-}
-
-.sectionDocentes {
-    font-family: 'Noto Sans NKo Unjoined', sans-serif;
-    color: #191717;
-}
-
-.sectionCalendario {
-    font-family: 'Noto Sans NKo Unjoined', sans-serif;
-    color: #191717;
-}
-
-.sectionInstitucional {
-    font-family: 'Noto Sans NKo Unjoined', sans-serif;
-    color: #191717;
-}
-
-.titulo {
-    color: #F0F0F0;
-    font-family: 'Noto Sans NKo Unjoined', sans-serif;
-    font-size: 55px;
-    padding: 10px;
-    text-decoration: none;
-}
-
-/*ESTILOS DE BACKGROUND COLOR*/
-body {
-    background-color: #F4F2DE;
-}
-
-.header {
-    background-color: #213555;
-}
 
 /*ESTILOS DE LA NAV*/
 nav ul {
@@ -92,6 +60,7 @@ nav ul {
 a {
     text-decoration: none;
     color: #191717;
+    font-weight: 300;
 }
 
 .navbar-collapse {
@@ -102,12 +71,21 @@ nav ul li {
     margin-left: 10px;
 }
 
-/*ESTILOS DEL HEADER*/
-.header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.dropdown-item {
+    font-weight: 200;
 }
+
+.navbar-nav .dropdown-menu {
+    width: 200px;
+}
+
+
+.container-fluid {
+     
+    padding: 0 !important;
+}
+
+
 
 /*ESTILOS DE LA SECTION DEL INDEX*/
 .infoPortada {
@@ -115,17 +93,17 @@ nav ul li {
     flex-direction: column;
 }
 
-.fotos {
-    width: 400px;
-    height: 400px;
-    object-fit: cover;
-}
-
 .imagenesPortada {
     display: flex;
     justify-content: space-evenly;
     margin-top: 15px;
     margin-bottom: 15px;
+}
+
+.fotos {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
 }
 
 .textoPortada {
@@ -147,6 +125,9 @@ nav ul li {
 .sectionTallerPracticaOp {
     margin: 10px;
     padding: 10px;
+    font-family: 'Noto Sans NKo Unjoined', sans-serif;
+    color: #191717;
+    font-weight: 100;
 }
 
 .objetivosTaller {
@@ -163,6 +144,9 @@ nav ul li {
 .sectionTallerComercializacion {
     margin: 10px;
     padding: 10px;
+    font-family: 'Noto Sans NKo Unjoined', sans-serif;
+    color: #191717;
+    font-weight: 100;
 }
 
 .tituloTallerComerc {
@@ -174,6 +158,9 @@ nav ul li {
 .sectionNegYCont {
     margin: 10px;
     padding: 10px;
+    font-family: 'Noto Sans NKo Unjoined', sans-serif;
+    color: #191717;
+    font-weight: 100;
 }
 
 .tituloNegYCont {
@@ -185,6 +172,9 @@ nav ul li {
 .sectionIntroComex {
     margin: 10px;
     padding: 10px;
+    font-family: 'Noto Sans NKo Unjoined', sans-serif;
+    color: #191717;
+    font-weight: 100;
 }
 
 .tituloIntroComex {
@@ -196,6 +186,9 @@ nav ul li {
 .sectionComInt {
     margin: 10px;
     padding: 10px;
+    font-family: 'Noto Sans NKo Unjoined', sans-serif;
+    color: #191717;
+    font-weight: 100;
 }
 
 .tituloComInt {
@@ -207,6 +200,9 @@ nav ul li {
 .sectionDocentes {
     margin: 10px;
     padding: 10px;
+    font-family: 'Noto Sans NKo Unjoined', sans-serif;
+    color: #191717;
+    font-weight: 100;
 }
 
 /*ESTILOS CALENDARIO ACADEMICO*/
@@ -214,6 +210,9 @@ nav ul li {
     margin: 10px;
     padding: 10px;
     display: flex;
+    font-family: 'Noto Sans NKo Unjoined', sans-serif;
+    color: #191717;
+    font-weight: 100;
 
 }
 
@@ -227,11 +226,14 @@ nav ul li {
     flex-direction: column;
 }
 
-/*ESTILOS INSTITUCIONAL*/
+/* ESTILOS INSTITUCIONAL
 .sectionInstitucional {
     margin: 10px;
     padding: 10px;
-}
+    font-family: 'Noto Sans NKo Unjoined', sans-serif;
+    color: #191717;
+} */
+
 
 /*ESTILOS RESPONSIVE*/
 @media screen and (min-width: 480px) {
