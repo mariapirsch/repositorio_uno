@@ -18,11 +18,18 @@ header {
     background-color: #213555;
 }
 
-.titulo {
+/* .titulo {
     display: flex;
     font-weight: 700;
     font-size: 45px;
     color: white;
+} */
+.estilo-titulo {
+    font-family: 'Noto Sans NKo Unjoined', sans-serif;
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    font-size: 45px;
 }
 
 .nav-list {
@@ -214,13 +221,22 @@ header {
         object-fit: cover;
         padding: 10px;
     }
-    .titulo {
+    /* .titulo {
+        display: flex;
+        font-size: 20px;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5px;
+    } */
+    .estilo-titulo {
         display: flex;
         font-size: 20px;
         justify-content: center;
         align-items: center;
         margin-top: 5px;
     }
+
+
     .sectionCalendario {
         display: flex;
         flex-direction: column;
