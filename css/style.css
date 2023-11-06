@@ -6,85 +6,50 @@
 
 body {
     background-color: #F4F2DE;
+    font-family: 'Noto Sans NKo Unjoined', sans-serif;
 
 }
 
-/*ESTILOS DEL HEADER*/
-.header {
-    background-color: #213555;
+header {
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #213555;
 }
 
-/*ESTILOS DEL TITULO*/
 .titulo {
-    color: #F0F0F0;
-    font-family: 'Noto Sans NKo Unjoined', sans-serif;
-    font-size: 55px;
-    padding: 10px;
-    text-decoration: none;
+    display: flex;
     font-weight: 700;
+    font-size: 45px;
+    color: white;
 }
 
+.nav-list {
+    display: flex;
+    list-style-type: none;
+}
 
-/*ESTILOS DE TIPOGRAFÍA*/
+.nav-list li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 300;
+    font-size: 10px;
+}
 
-/* h1 {
-    font-family: 'Noto Sans NKo Unjoined', sans-serif;
-    color: #F0F0F0;
-    font-size: 55px;
-    padding: 10px;
-} */
+.abrir-menu {
+    display: none;
+}
+
+.cerrar-menu {
+    display: none;
+}
 
 
 .textoPortada {
     font-family: 'Noto Sans NKo Unjoined', sans-serif;
     color: #191717;
 }
-
-
-/*ESTILOS DE LA NAV*/
-nav ul {
-    background-color: #A1CCD1;
-    font-family: 'Noto Sans NKo Unjoined', sans-serif;
-    font-size: 12px;
-    list-style: none;
-    display: flex;
-    justify-content: space-evenly;
-    padding: 10px;
-    width: 100%;
-    border-radius: 5px;
-}
-
-a {
-    text-decoration: none;
-    color: #191717;
-    font-weight: 300;
-}
-
-.navbar-collapse {
-    margin-top: 10px;
-}
-
-nav ul li {
-    margin-left: 10px;
-}
-
-.dropdown-item {
-    font-weight: 200;
-}
-
-.navbar-nav .dropdown-menu {
-    width: 200px;
-}
-
-
-.container-fluid {
-     
-    padding: 0 !important;
-}
-
 
 
 /*ESTILOS DE LA SECTION DEL INDEX*/
@@ -226,14 +191,6 @@ nav ul li {
     flex-direction: column;
 }
 
-/* ESTILOS INSTITUCIONAL
-.sectionInstitucional {
-    margin: 10px;
-    padding: 10px;
-    font-family: 'Noto Sans NKo Unjoined', sans-serif;
-    color: #191717;
-} */
-
 
 /*ESTILOS RESPONSIVE*/
 @media screen and (min-width: 480px) {
@@ -241,6 +198,7 @@ nav ul li {
         display: flex;
         flex-direction: column;
     }
+    
 }
 
 @media screen and (max-width: 480px) {
@@ -250,18 +208,12 @@ nav ul li {
         justify-content: center;
         margin: auto;
     }
-}
-
-@media screen and (max-width: 480px) {
     .fotos {
         width: 300px;
         height: 300px;
         object-fit: cover;
         padding: 10px;
     }
-}
-
-@media screen and (max-width: 480px) {
     .titulo {
         display: flex;
         font-size: 20px;
@@ -269,16 +221,10 @@ nav ul li {
         align-items: center;
         margin-top: 5px;
     }
-}
-
-@media screen and (max-width: 480px) {
     .sectionCalendario {
         display: flex;
         flex-direction: column;
     }
-}
-
-@media screen and (max-width: 480px) {
     .imagenCalend {
         width: 300px;
         object-fit: cover;
@@ -286,7 +232,46 @@ nav ul li {
         display: flex;
         margin: auto;
     }
+    .abrir-menu {
+        display: block;
+        border: 0;
+        background-color: transparent;
+        cursor: pointer;
+    }
+
+    .cerrar-menu {
+        display: block;
+        border: 0;
+        background-color: transparent;
+        cursor: pointer;
+        color: white;
+    }
+
+    .nav {
+        opacity: 0;
+        visibility: hidden;
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        position: absolute;
+        top: 0;
+        right: 0;
+        background-color: #A1CCD1;
+        padding: 5px;
+        bottom: 0;
+    }
+
+    .nav.visible {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .nav-list {
+        flex-direction: column;
+        align-items: end;
+    }
 }
+
 
 /*ANIMACIÓN EN CSS*/
 @keyframes show {
