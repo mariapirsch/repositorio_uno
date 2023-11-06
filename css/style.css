@@ -198,6 +198,30 @@ header {
     flex-direction: column;
 }
 
+/*ANIMACIÓN EN CSS*/
+@keyframes show {
+    from {
+        opacity: 0;
+        scale: 25%;
+    }
+
+    to {
+        opacity: 1;
+        scale: 100%;
+    }
+
+}
+
+.fotos {
+    view-timeline-name: --image;
+    view-timeline-axis: block;
+
+    animation-timeline: --image;
+    animation-name: show;
+
+    animation-range: entry 25% cover 50%;
+    animation-fill-mode: both;
+}
 
 /*ESTILOS RESPONSIVE*/
 @media screen and (min-width: 480px) {
@@ -253,6 +277,7 @@ header {
         border: 0;
         background-color: transparent;
         cursor: pointer;
+        color: white;
     }
 
     .cerrar-menu {
@@ -286,30 +311,4 @@ header {
         flex-direction: column;
         align-items: end;
     }
-}
-
-
-/*ANIMACIÓN EN CSS*/
-@keyframes show {
-    from {
-        opacity: 0;
-        scale: 25%;
-    }
-
-    to {
-        opacity: 1;
-        scale: 100%;
-    }
-
-}
-
-.fotos {
-    view-timeline-name: --image;
-    view-timeline-axis: block;
-
-    animation-timeline: --image;
-    animation-name: show;
-
-    animation-range: entry 25% cover 50%;
-    animation-fill-mode: both;
 }
