@@ -9,3 +9,8 @@ abrir.addEventListener("click", () => {
 cerrar.addEventListener("click", () => {
     nav.classList.remove("visible");
 })
+
+
+function agradecimiento('Gracias por suscribirte') {
+    alert('Gracias por suscribirte')
+}
