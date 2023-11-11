@@ -11,6 +11,7 @@ cerrar.addEventListener("click", () => {
 })
 
 
-function agradecimiento('Gracias por suscribirte') {
-    alert('Gracias por suscribirte')
-}
+const btn = document.getElementById('boton')
+btn.addEventListener('click', () => {
+    alert('Gracias por suscribirte');
+})
