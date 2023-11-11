@@ -15,7 +15,7 @@ También agregué un poquito de Bootstrap (unos íconos en la nav bar).
 
 #¿Mantuve el mismo diseño desde el primer sketch?
 
-Jajajaja, NO. Sufrió una y mil modificaciones. Moví la nav por todos lados, modifiqué las fotos, le agregué una animación, cambié el logo de lugar. ay que ser flexibles.
+Jajajaja, NO. Sufrió una y mil modificaciones. Moví la nav por todos lados, modifiqué las fotos, le agregué una animación, cambié el logo de lugar. Hay que ser flexibles.
 
 #¿Cómo me sentí haciendo esto?
 
